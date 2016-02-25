@@ -74,7 +74,10 @@ namespace ProgrammingAssignment3
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // STUDENTS: Load content for 3 sprites
+            // Load 3 rock sprites
+            rock0 = new Rock(rockSprite0, new Vector2(100, 100), new Vector2(1, 2), WindowWidth, WindowHeight);
+            rock1 = new Rock(rockSprite1, new Vector2(100, 100), new Vector2(1, 2), WindowWidth, WindowHeight);
+            rock2 = new Rock(rockSprite2, new Vector2(100, 100), new Vector2(1, 2), WindowWidth, WindowHeight);
 
             // STUDENTS: Create a new random rock by calling the GetRandomRock method
 
