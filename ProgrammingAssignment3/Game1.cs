@@ -131,13 +131,13 @@ namespace ProgrammingAssignment3
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // draw rock sprites
-            spriteBatch.Begin();
+            //spriteBatch.Begin();
 
-            rock0.Draw(spriteBatch);
-            rock1.Draw(spriteBatch);
-            rock2.Draw(spriteBatch);
+            //rockSprite0.Draw(spriteBatch);
+            //rockSprite1.Draw(spriteBatch);
+            //rockSprite2.Draw(spriteBatch);
 
-            spriteBatch.End();
+            //spriteBatch.End();
 
             base.Draw(gameTime);
         }
