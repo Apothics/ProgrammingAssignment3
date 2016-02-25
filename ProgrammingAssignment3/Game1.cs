@@ -24,6 +24,9 @@ namespace ProgrammingAssignment3
         // STUDENTS: declare variables for 3 rock sprites
 
         // STUDENTS: declare variables for 3 rocks
+        Rock rock0;
+        Rock rock1;
+        Rock rock2;
 
         // delay support
         const int TotalDelayMilliseconds = 1000;
