@@ -103,7 +103,9 @@ namespace ProgrammingAssignment3
                 Exit();
 
             // STUDENTS: update rocks
-
+            rock0.Update(gameTime);
+            rock1.Update(gameTime);
+            rock2.Update(gameTime);
 
             // update timer
             elapsedDelayMilliseconds += gameTime.ElapsedGameTime.Milliseconds;
