@@ -75,9 +75,9 @@ namespace ProgrammingAssignment3
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // Load 3 rock sprites
-            rock0 = new Rock(rockSprite0, new Vector2(100, 100), new Vector2(1, 2), WindowWidth, WindowHeight);
-            rock1 = new Rock(rockSprite1, new Vector2(100, 100), new Vector2(1, 2), WindowWidth, WindowHeight);
-            rock2 = new Rock(rockSprite2, new Vector2(100, 100), new Vector2(1, 2), WindowWidth, WindowHeight);
+            rockSprite0 = Content.Load<Texture2D>(@"graphics\greenrock");
+            rockSprite1 = Content.Load<Texture2D>(@"graphics\magentarock");
+            rockSprite2 = Content.Load<Texture2D>(@"graphics\whiterock");
 
             // STUDENTS: Create a new random rock by calling the GetRandomRock method
 
@@ -103,9 +103,7 @@ namespace ProgrammingAssignment3
                 Exit();
 
             // STUDENTS: update rocks
-            rock0.Update(gameTime);
-            rock1.Update(gameTime);
-            rock2.Update(gameTime);
+
 
             // update timer
             elapsedDelayMilliseconds += gameTime.ElapsedGameTime.Milliseconds;
