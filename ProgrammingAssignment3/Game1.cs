@@ -22,6 +22,9 @@ namespace ProgrammingAssignment3
             WindowWidth / 2, WindowHeight / 2);
 
         // STUDENTS: declare variables for 3 rock sprites
+        Texture2D rockSprite0;
+        Texture2D rockSprite1;
+        Texture2D rockSprite2;
 
         // STUDENTS: declare variables for 3 rocks
         Rock rock0;
