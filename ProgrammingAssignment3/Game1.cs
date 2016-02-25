@@ -127,8 +127,12 @@ namespace ProgrammingAssignment3
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            // STUDENTS: draw rocks
+            // draw rock sprites
             spriteBatch.Begin();
+
+            rock0.Draw(spriteBatch);
+            rock1.Draw(spriteBatch);
+            rock2.Draw(spriteBatch);
 
             spriteBatch.End();
 
