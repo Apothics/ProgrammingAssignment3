@@ -134,3 +134,31 @@ C:\Users\Chase\Documents\GitHub\ProgrammingAssignment3\ProgrammingAssignment3\bi
 C:\Users\Chase\Documents\GitHub\ProgrammingAssignment3\ProgrammingAssignment3\obj\x86\Debug\ProgrammingAssignment3.csprojResolveAssemblyReference.cache
 C:\Users\Chase\Documents\GitHub\ProgrammingAssignment3\ProgrammingAssignment3\obj\x86\Debug\ProgrammingAssignment3.exe
 C:\Users\Chase\Documents\GitHub\ProgrammingAssignment3\ProgrammingAssignment3\obj\x86\Debug\ProgrammingAssignment3.pdb
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\obj\x86\Debug\ProgrammingAssignment3.exe
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\obj\x86\Debug\ProgrammingAssignment3.pdb
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\Content\Graphics\greenrock.xnb
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\Content\Graphics\magentarock.xnb
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\Content\Graphics\whiterock.xnb
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\ProgrammingAssignment3.exe
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\ProgrammingAssignment3.pdb
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\MonoGame.Framework.dll
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.MediaFoundation.dll
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.dll
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.XAudio2.dll
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.Direct3D11.dll
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.DXGI.dll
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.Direct2D1.dll
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.XInput.dll
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.RawInput.dll
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.Direct3D9.dll
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\MonoGame.Framework.xml
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.MediaFoundation.xml
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.xml
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.XAudio2.xml
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.Direct3D11.xml
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.DXGI.xml
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.Direct2D1.xml
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.XInput.xml
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.RawInput.xml
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\bin\Windows\Debug\SharpDX.Direct3D9.xml
+E:\School\GDD\Programming Projects\ProgrammingAssignment3\ProgrammingAssignment3\obj\x86\Debug\ProgrammingAssignment3.csprojResolveAssemblyReference.cache
