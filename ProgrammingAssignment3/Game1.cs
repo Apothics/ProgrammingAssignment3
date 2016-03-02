@@ -36,7 +36,7 @@ namespace ProgrammingAssignment3
         int elapsedDelayMilliseconds = 0;
 
         // random velocity support
-        const float BaseSpeed = 0.15f;
+        const float BaseSpeed = 1;
         Vector2 upLeft = new Vector2(-BaseSpeed, -BaseSpeed);
         Vector2 upRight = new Vector2(BaseSpeed, -BaseSpeed);
         Vector2 downRight = new Vector2(BaseSpeed, BaseSpeed);
@@ -114,7 +114,18 @@ namespace ProgrammingAssignment3
             if (elapsedDelayMilliseconds >= TotalDelayMilliseconds)
             {
                 // STUDENTS: timer expired, so spawn new rock if fewer than 3 rocks in window
-
+                if (rock0.OutsideWindow == true)
+                {
+                    rock0 = GetRandomRock();
+                }
+                if (rock1.OutsideWindow == true)
+                {
+                    rock1 = GetRandomRock();
+                }
+                if (rock2.OutsideWindow == true)
+                {
+                    rock2 = GetRandomRock();
+                }
                 // restart timer
                 elapsedDelayMilliseconds = 0;
             }
@@ -122,6 +133,19 @@ namespace ProgrammingAssignment3
             // STUDENTS: Check each rock to see if it's outside the window. If so
             // spawn a new random rock for it by calling the GetRandomRock method
             // Caution: Only check the property if the variable isn't null
+
+            if(rock0.OutsideWindow == true)
+            {
+               rock0 = GetRandomRock();
+            }
+            if(rock1.OutsideWindow == true)
+            {
+                rock1 = GetRandomRock();
+            }
+            if(rock2.OutsideWindow == true)
+            {
+                rock2 = GetRandomRock();
+            }
             
             base.Update(gameTime);
         }
@@ -136,7 +160,9 @@ namespace ProgrammingAssignment3
 
            // draw rock sprites
             spriteBatch.Begin();
-            
+            rock0.Draw(spriteBatch);
+            rock1.Draw(spriteBatch);
+            rock2.Draw(spriteBatch);
             spriteBatch.End();
 
             base.Draw(gameTime);
@@ -199,19 +225,19 @@ namespace ProgrammingAssignment3
             int velocityNumber = rand.Next(0,3);
             if (velocityNumber == 0)
             {
-                return upLeft;
+                return upLeft * rand.Next(1,5);
             }
             else if (velocityNumber == 1)
             {
-                return upRight;
+                return upRight * rand.Next(1,5);
             }
             else if (velocityNumber == 2)
             {
-                return downRight;
+                return downRight * rand.Next(1,5);
             }
             else
             {
-                return downLeft;
+                return downLeft * rand.Next(1,5);
             }
 
             // STUDENTS: After completing the code above, delete the following line of code

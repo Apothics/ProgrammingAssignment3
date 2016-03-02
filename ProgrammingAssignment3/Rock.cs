@@ -90,12 +90,19 @@ namespace ProgrammingAssignment3
         public void Update(GameTime gameTime)
         {
             // STUDENTS: Only update the rock if it's inside the window
-
             // STUDENTS: Update the rock's location
-
+            if(outsideWindow == false)
+            {
+                drawRectangle.X += (int)(velocity.X);
+                drawRectangle.Y += (int)(velocity.Y);
+            }
 
             // STUDENTS: Set outsideWindow to true if the rock is outside the window
-
+            if (drawRectangle.X > windowWidth || drawRectangle.Y > windowHeight || drawRectangle.X < (-1*sprite.Width) || drawRectangle.Y < (-1*sprite.Height))
+            {
+                outsideWindow = true;
+               
+            }
         }
 
         /// <summary>
@@ -105,6 +112,10 @@ namespace ProgrammingAssignment3
         public void Draw(SpriteBatch spriteBatch)
         {
             // STUDENTS: Only draw the rock if it's inside the window
+            if(!outsideWindow)
+            {
+                spriteBatch.Draw(sprite, drawRectangle, Color.White);
+            }
 
             // STUDENTS: Draw the rock
             // Caution: Don't include spriteBatch.Begin or spriteBatch.End here
